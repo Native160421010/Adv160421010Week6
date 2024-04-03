@@ -32,6 +32,15 @@ class LegionnaireListFragment : Fragment() {
         binding.recView.layoutManager = LinearLayoutManager(context)
         binding.recView.adapter = legionnaireListAdapter
         observeViewModel()
+
+        binding.refreshLayout.setOnRefreshListener {
+            binding.recView.visibility = View.GONE
+            binding.txtError.visibility = View.GONE
+            binding.progressLoad.visibility = View.VISIBLE
+            viewModel.refresh()
+            binding.refreshLayout.isRefreshing = false
+        }
+
     }
     private fun observeViewModel() {
         viewModel.legionnairesLD.observe(viewLifecycleOwner, Observer {
