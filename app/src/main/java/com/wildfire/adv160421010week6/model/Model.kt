@@ -12,7 +12,8 @@ data class Legionnaire(
     var hobbies: List<String>?,
     var ambition: String?,
     var tree: String?,
-    var change: String?
+    var change: String?,
+    var images: String?
 )
 
 data class Features(

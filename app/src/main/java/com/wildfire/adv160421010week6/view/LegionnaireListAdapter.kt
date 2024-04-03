@@ -1,13 +1,14 @@
 package com.wildfire.adv160421010week6.view
 
+import android.R
 import android.view.LayoutInflater
-import android.view.View
 import android.view.ViewGroup
+import android.widget.ImageView
 import androidx.recyclerview.widget.RecyclerView
+import com.squareup.picasso.Picasso
 import com.wildfire.adv160421010week6.databinding.LegionnaireListItemBinding
 import com.wildfire.adv160421010week6.model.Features
 import com.wildfire.adv160421010week6.model.Legionnaire
-import org.json.JSONObject
 
 
 class LegionnaireListAdapter(val legionnaireList:ArrayList<Legionnaire>)
@@ -23,6 +24,9 @@ class LegionnaireListAdapter(val legionnaireList:ArrayList<Legionnaire>)
     }
 
     override fun onBindViewHolder(holder: LegionnaireViewHolder, position: Int) {
+        //Picasso.get().load("https://loremflickr.com/230/240/cars?lock=10").into(holder.binding.imageView)
+        Picasso.get().load(legionnaireList[position].images).into(holder.binding.imageView)
+
         holder.binding.txtID.text = legionnaireList[position].id
         holder.binding.txtCodename.text = legionnaireList[position].codename
         //holder.binding.txtName.text = legionnaireList[position].name
@@ -41,8 +45,8 @@ class LegionnaireListAdapter(val legionnaireList:ArrayList<Legionnaire>)
         }
 
         val hobby = legionnaireList[position].hobbies
-        //val hobbyText = "${position + 1}. $hobby"
-        //holder.binding.txtHobby.text = hobbyText
+        val formattedHobbies = hobby?.joinToString(separator = "\n\u2022 ") { it }
+        holder.binding.txtHobby.text = "\u2022 $formattedHobbies"
 
         holder.binding.txtAmbition.text = legionnaireList[position].ambition
         //holder.binding.txtTree.text = legionnaireList[position].tree
