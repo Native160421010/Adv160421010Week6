@@ -24,20 +24,31 @@
             android:layout_height="match_parent">
 
             <TextView
+                android:id="@+id/txtViewID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="8dp"
+                android:text="ID:"
+                app:layout_constraintEnd_toStartOf="@+id/txtID"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
                 android:id="@+id/txtID"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
-                android:layout_marginTop="16dp"
-                android:text="ID"
-                app:layout_constraintStart_toEndOf="@+id/imageView"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="32dp"
+                android:text="00"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
             <ImageView
                 android:id="@+id/imageView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                app:layout_constraintBottom_toBottomOf="parent"
+                android:layout_marginTop="32dp"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 app:srcCompat="@drawable/ic_launcher_foreground" />
@@ -46,22 +57,270 @@
                 android:id="@+id/txtCodename"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
-                android:layout_marginTop="8dp"
+                android:layout_marginTop="32dp"
                 android:text="CODENAME"
+                android:textSize="24sp"
                 android:textStyle="bold"
-                app:layout_constraintStart_toEndOf="@+id/imageView"
-                app:layout_constraintTop_toBottomOf="@+id/txtID" />
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
-            <Button
-                android:id="@+id/btnDetail"
+            <TextView
+                android:id="@+id/txtName"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginEnd="16dp"
-                android:layout_marginBottom="16dp"
-                android:text="DETAIL"
+                android:layout_marginTop="8dp"
+                android:text="Real Name of Planet"
+                android:textStyle="italic"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txtCodename" />
+
+            <TextView
+                android:id="@+id/txtViewJoined"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="8dp"
+                android:text="JOINED:"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txtPower" />
+
+            <TextView
+                android:id="@+id/txtJoined"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:text="Jan, 00-04-2958"
+                app:layout_constraintStart_toEndOf="@+id/txtViewJoined"
+                app:layout_constraintTop_toBottomOf="@+id/txtPower" />
+
+            <TextView
+                android:id="@+id/txtViewPower"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="32dp"
+                android:text="POWERS:"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txtName" />
+
+            <TextView
+                android:id="@+id/txtPower"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="32dp"
+                android:text="Super-Power"
+                app:layout_constraintStart_toEndOf="@+id/txtViewPower"
+                app:layout_constraintTop_toBottomOf="@+id/txtName" />
+
+            <TextView
+                android:id="@+id/txtViewBirthday"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="8dp"
+                android:text="BIRTHDAY:"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txtViewJoined" />
+
+            <TextView
+                android:id="@+id/txtBirthday"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:text="Jan, 00-04-2958"
+                app:layout_constraintStart_toEndOf="@+id/txtViewBirthday"
+                app:layout_constraintTop_toBottomOf="@+id/txtJoined" />
+
+            <TextView
+                android:id="@+id/txtViewFeatures"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="24dp"
+                android:text="FEATURES"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txtViewBirthday" />
+
+            <TextView
+                android:id="@+id/txtViewHair"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="8dp"
+                android:text="HAIR:"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txtViewFeatures" />
+
+            <TextView
+                android:id="@+id/txtViewEyes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="8dp"
+                android:text="EYES:"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txtViewHair" />
+
+            <TextView
+                android:id="@+id/txtViewWeight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="8dp"
+                android:text="WEIGHT:"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txtViewHeight" />
+
+            <TextView
+                android:id="@+id/txtViewHeight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="8dp"
+                android:text="HEIGHT:"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txtViewEyes" />
+
+            <TextView
+                android:id="@+id/txtViewAmbition"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="24dp"
+                android:text="AMBITION IN LIFE:"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txtHobby" />
+
+            <TextView
+                android:id="@+id/txtViewTree"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="8dp"
+                android:text="WHAT KIND OF A TREE WOULD YOU BE?"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txtAmbition" />
+
+            <TextView
+                android:id="@+id/txtTree"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="8dp"
+                android:text="This kind of tree, because bla bla bla"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txtViewTree" />
+
+            <TextView
+                android:id="@+id/txtViewChange"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="8dp"
+                android:text="WHAT WOULD YOU CHANGE OF YOURSELF?"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txtTree" />
+
+            <TextView
+                android:id="@+id/txtChange"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="32dp"
+                android:text="Changes"
                 app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent" />
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txtViewChange" />
+
+            <TextView
+                android:id="@+id/txtHair"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:text="Hair"
+                app:layout_constraintStart_toEndOf="@+id/txtViewHair"
+                app:layout_constraintTop_toBottomOf="@+id/txtViewFeatures" />
+
+            <TextView
+                android:id="@+id/txtEye"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:text="Eye Color"
+                app:layout_constraintStart_toEndOf="@+id/txtViewEyes"
+                app:layout_constraintTop_toBottomOf="@+id/txtHair" />
+
+            <TextView
+                android:id="@+id/txtHeight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:text="00' 00'"
+                app:layout_constraintStart_toEndOf="@+id/txtViewHeight"
+                app:layout_constraintTop_toBottomOf="@+id/txtEye" />
+
+            <TextView
+                android:id="@+id/txtWeight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:text="TextView"
+                app:layout_constraintStart_toEndOf="@+id/txtViewWeight"
+                app:layout_constraintTop_toBottomOf="@+id/txtHeight" />
+
+            <TextView
+                android:id="@+id/txtAmbition"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="24dp"
+                android:text="Ambitions"
+                app:layout_constraintStart_toEndOf="@+id/txtViewAmbition"
+                app:layout_constraintTop_toBottomOf="@+id/txtHobby" />
+
+            <TextView
+                android:id="@+id/txtHobby"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="8dp"
+                android:text="- Hobby 1"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txtViewHobby" />
+
+            <TextView
+                android:id="@+id/txtViewHobby"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="24dp"
+                android:text="HOBBIES:"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txtViewWeight" />
+
         </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.cardview.widget.CardView>
 </androidx.constraintlayout.widget.ConstraintLayout>
