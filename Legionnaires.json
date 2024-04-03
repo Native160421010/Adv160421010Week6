@@ -1,0 +1,202 @@
+[
+    {
+        "id": 1,
+        "codename": "COSMIC BOY",
+        "name": "Rokk Krinn",
+        "birthday": "Feb. 11, 2958",
+        "power": "Super-Magnetism",
+        "joined": "Jan.6, 2973 (Charter member)",
+        "planet": "Braal",
+        "features": {
+            "hair": "Coal Black",
+            "eyes": "Clear, uncompromising blue",
+            "height": "6' 0'",
+            "weight": "190"
+        },
+        "hobbies": ["Magnoball", "20th century memorabilia", "whistling", "Kujui"],
+        "ambition": "To be the best I can be",
+        "tree": "I hope a strong one that provides others with shelter",
+        "change": "More disciplined",
+        "images": "https://i.imgur.com/HP18HSW.jpeg"
+    },
+    {
+        "id": 2,
+        "codename": "SATURN GIRL",
+        "name": "Imra Ardeen",
+        "birthday": "Nov. 23, 2958",
+        "power": "Super-Telepathy",
+        "joined": "Jan.6, 2973 (Charter member)",
+        "planet": "Titan",
+        "features": {
+            "hair": "Golden flowing blond",
+            "eyes": "Clear, intelligent blue",
+            "height": "5' 7'",
+            "weight": "130"
+        },
+        "hobbies": ["Reading", "swimming", "hoops", "historical simulations"],
+        "ambition": "To make the universe a better \nplace for all sentience",
+        "tree": "A Winathian Demi-Violet, because they seem tough and \nsturdy on the outside, but are also soft and gentle when \nthey blossom",
+        "change": "Spending eight hours a night asleep when there's \nso much to be done",
+        "images": "https://imgur.com/fCbeYDm.jpeg"
+    },
+    {
+        "id": 3,
+        "codename": "LIGHTNING LAD",
+        "name": "Garth Ranzz",
+        "birthday": "Nov. 10, 2959",
+        "power": "Super-Lightning",
+        "joined": "Jan.6, 2973 (Charter member)",
+        "planet": "Winath",
+        "features": {
+            "hair": "Dazzling red",
+            "eyes": "Electric blue",
+            "height": "6' 2'",
+            "weight": "190"
+        },
+        "hobbies": ["Rocket-sled racing", "girl watching", "gridball", "hoops", "hunting", "bronc-riding"],
+        "ambition": "To clean up all the trash that \nmakes the Legion necessary",
+        "tree": "A Fire Palm. Bright, beautiful, and it'll never die.",
+        "change": "My irresistibility to women.",
+        "images": "https://imgur.com/lDQhYi7.jpeg"
+    },
+    {
+        "id": 4,
+        "codename": "TRIPLICATE GIRL / DUO DAMSEL",
+        "name": "Luornu Durgo-Taine",
+        "birthday": "Oct. 5, 2957",
+        "power": "Super-Triplicating (formerly), \nSuper-Duplication",
+        "joined": "March 3, 2973",
+        "planet": "Cargg",
+        "features": {
+            "hair": "Bouncy brown",
+            "eyes": "Vibrant violet & arresting amber",
+            "height": "5' 7'",
+            "weight": "120"
+        },
+        "hobbies": ["Reading", "watching boys", "sitting in a safe & dark room"],
+        "ambition": "To make everyone happy, to \nshock society out of its \ncomplacency, and to not have \nanything awful happen",
+        "tree": "A daisy because it's so honest, or maybe a Xanthuan \nPassion Andulka, or probably a flower that never grew \nbecause it was under a rock",
+        "change": "Some things I do, some of the things I don't do, \neverything",
+        "images": "https://imgur.com/jjvCM0j.jpeg"
+    },
+    {
+        "id": 5,
+        "codename": "PHANTOM GIRL",
+        "name": "Tinya Wazzo",
+        "birthday": "April 21, 2957",
+        "power": "Super-Phasing",
+        "joined": "March 3, 2973",
+        "planet": "Bgtzl",
+        "features": {
+            "hair": "Mystical black",
+            "eyes": "Ghostly blue",
+            "height": "5' 6'",
+            "weight": "106"
+        },
+        "hobbies": ["Comic books", "ghost hunting", "hide and seek", "travelling", "sneaking from classes"],
+        "ambition": "To travel around the universe, \nmeet all sorts of \nwonderful-people, and \nkick major scuts",
+        "tree": "A Protean Cosmic Flower - always changing, forever \ndrifting in the stars, long away from home",
+        "change": "I wish my mom wouldn't be so strict",
+        "images": "https://imgur.com/uwLi0G8.jpeg"
+    },
+    {
+        "id": 6,
+        "codename": "CHAMELEON BOY",
+        "name": "Reep Daggle",
+        "birthday": "Sept 10, 2957",
+        "power": "Super-Disguise",
+        "joined": "July 10, 2973",
+        "planet": "Durla",
+        "features": {
+            "hair": "None",
+            "eyes": "Mysterious sea green",
+            "height": "5' 9'",
+            "weight": "135"
+        },
+        "hobbies": ["Charity work", "mysteries", "puzzles"],
+        "ambition": "To help eliminate bigotry against \nDurlans and promote better \nunderstanding among all \nsentient species",
+        "tree": "An Ikrosiot Red Palm - mysterious, exotic and nobody \nunderstands quite what makes it tick",
+        "change": "Be more committed to my charity work",
+        "images": "https://imgur.com/yoNEQAz.jpeg"
+    },
+    {
+        "id": 7,
+        "codename": "COLOSSAL BOY",
+        "name": "Gim Allon",
+        "birthday": "Jan 29, 2956",
+        "power": "Super-Rapid Growth",
+        "joined": "July 10, 2973",
+        "planet": "Earth",
+        "features": {
+            "hair": "Rugged brown",
+            "eyes": "Boyish, sensitive brown",
+            "height": "5' 11'",
+            "weight": "200"
+        },
+        "hobbies": ["Jogging", "weight lifting", "watching gridball", "moopsball", "batball", "hoops"],
+        "ambition": "To find my dream girl and \nsettle down",
+        "tree": "A giant Redwood",
+        "change": "My luck",
+        "images": "https://imgur.com/q0sXSBG.jpeg"
+    },
+    {
+        "id": 8,
+        "codename": "INVISBLE KID I",
+        "name": "Lyle Norg",
+        "birthday": "Nov 19, 2958",
+        "power": "Super-Invisibility",
+        "joined": "July 10, 2973",
+        "planet": "Earth",
+        "features": {
+            "hair": "Wavy, luxurious brown",
+            "eyes": "Soft, intelligent brown",
+            "height": "5' 7'",
+            "weight": "140"
+        },
+        "hobbies": ["Sciences", "reading", "hiking"],
+        "ambition": "Continue my research to aid \nall sentience",
+        "tree": "Some sort of deciduous, I suppose",
+        "change": "More comfortable around other people",
+        "images": "https://imgur.com/v1Hyvg3.jpeg"
+    },
+    {
+        "id": 9,
+        "codename": "SUPERGIRL",
+        "name": "Kara Zor-El",
+        "birthday": "Sep. 22, 1959",
+        "power": "Super-strength, speed, vision powers, \ninvulnerability",
+        "joined": "Sept. 5, 2973",
+        "planet": "Krypton",
+        "features": {
+            "hair": "Long, glistening blond",
+            "eyes": "Mischievous, sparkling blue-green",
+            "height": "5' 5'",
+            "weight": "120"
+        },
+        "hobbies": ["Exploration", "fashion", "music", "dancing", "gardening"],
+        "ambition": "Rid the galaxy of all threats to a \nlasting peace.",
+        "tree": "A Tiger Rose",
+        "change": "More self-discipline",
+        "images": "https://imgur.com/x3LcMJg.jpeg"
+    },
+    {
+        "id": 10,
+        "codename": "BRAINIAC 5",
+        "name": "Querl Dox",
+        "birthday": "Jan. 23, 2959",
+        "power": "12th-level Super-Intelligence",
+        "joined": "Sept. 5, 2973",
+        "planet": "Colu",
+        "features": {
+            "hair": "Distinctive blond",
+            "eyes": "Deep, intelligent green",
+            "height": "5' 9'",
+            "weight": "120"
+        },
+        "hobbies": ["Research", "experimentation", "programming", "design", "fabrication of Legion equipment", "writing", "birds"],
+        "ambition": "To fully apply the gifts I've \nbeen given",
+        "tree": "I and all humanoids bear the greatest resemblance to \nthe sentient Arborians of Arok-II",
+        "change": "Feelings of guilt",
+        "images": "https://imgur.com/3nOK5vS.jpeg"
+    }
+]

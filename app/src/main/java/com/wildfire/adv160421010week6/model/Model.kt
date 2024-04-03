@@ -1,5 +1,6 @@
 package com.wildfire.adv160421010week6.model
 
+// The data (Legionnaires.json) is available on this github
 data class Legionnaire(
     var id: String?,
     var codename: String?,

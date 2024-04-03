@@ -24,12 +24,10 @@ class LegionnaireListAdapter(val legionnaireList:ArrayList<Legionnaire>)
     }
 
     override fun onBindViewHolder(holder: LegionnaireViewHolder, position: Int) {
-        //Picasso.get().load("https://loremflickr.com/230/240/cars?lock=10").into(holder.binding.imageView)
         Picasso.get().load(legionnaireList[position].images).into(holder.binding.imageView)
 
         holder.binding.txtID.text = legionnaireList[position].id
         holder.binding.txtCodename.text = legionnaireList[position].codename
-        //holder.binding.txtName.text = legionnaireList[position].name
         holder.binding.txtName.text = legionnaireList[position].name + " of " + legionnaireList[position].planet
         holder.binding.txtPower.text = legionnaireList[position].power
         holder.binding.txtJoined.text = legionnaireList[position].joined
@@ -49,7 +47,6 @@ class LegionnaireListAdapter(val legionnaireList:ArrayList<Legionnaire>)
         holder.binding.txtHobby.text = "\u2022 $formattedHobbies"
 
         holder.binding.txtAmbition.text = legionnaireList[position].ambition
-        //holder.binding.txtTree.text = legionnaireList[position].tree
         holder.binding.txtTree.text = legionnaireList[position].tree
         holder.binding.txtChange.text = legionnaireList[position].change
 

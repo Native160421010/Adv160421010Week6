@@ -27,6 +27,8 @@ class ListViewModel(application: Application): AndroidViewModel(application) {
 
         Log.d("CEKMASUK", "masukvolley")
         queue = Volley.newRequestQueue(getApplication())
+
+        // The data (Legionnaires.json) is available on this github
         val url = "http://10.0.2.2/Legionnaires/Legionnaires.json"
 
         val stringRequest = StringRequest(
