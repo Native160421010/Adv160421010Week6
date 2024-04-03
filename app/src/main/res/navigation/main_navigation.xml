@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation"
+    app:startDestination="@id/legionnaireListFragment">
+
+    <fragment
+        android:id="@+id/legionnaireListFragment"
+        android:name="com.wildfire.adv160421010week6.view.LegionnaireListFragment"
+        android:label="fragment_legionnaire_list"
+        tools:layout="@layout/fragment_legionnaire_list" >
+        <action
+            android:id="@+id/actionLegionnaireDetail"
+            app:destination="@id/legionnaireDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/legionnaireDetailFragment"
+        android:name="com.wildfire.adv160421010week6.view.LegionnaireDetailFragment"
+        android:label="fragment_legionnaire_detail"
+        tools:layout="@layout/fragment_legionnaire_detail" />
+</navigation>
